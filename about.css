@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background: #282A3A;
+    color: #C69749;
+    font-family: Courgette;
+}
+
+#med {
+    position: absolute;
+    left: 50%;
+    height: fit-content;
+    transform: translateX(-50%) translateY(-50%);
+    width: 55%;
+    background: #C69749;
+    line-height: 55px;
+    border-radius: 50px;
+    top: -50%;
+    z-index: 2;
+    color: #282A3A;
+}
+
+#dis {
+    position: absolute;
+    left: 50%;
+    height: fit-content;
+    transform: translateX(-50%) translateY(-50%);
+    width: 55%;
+    background: #C69749;
+    line-height: 55px;
+    border-radius: 50px;
+    top: -50%;
+    z-index: 2;
+    color: #282A3A
+}
+
+input {
+    background: #282A3A;
+    color: #735F32;
+    border: none;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+button {
+    background: #282A3A;
+    color: #735F32;
+    border: none;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+@keyframes outthis {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 50%
+    }
+}
+
+@keyframes inthis {
+    0% {
+        top: 50%;
+    }
+    100% {
+        top: -50%
+    }
+}
+
+textarea {
+    resize: none;
+    background: #282A3A;
+    color: #735F32;
+    border: none;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+    -webkit-text-fill-color: #735F32;
+    -webkit-box-shadow: 0 0 0px 1000px #282A3A inset;
+    box-shadow: 0 0 0px 1000px #282A3A inset;
+}

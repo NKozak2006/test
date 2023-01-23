@@ -1,0 +1,131 @@
+body {
+    background: #282A3A;
+    color: #C69749;
+    font-family: Courgette;
+}
+
+#login input {
+    background: #735F32;
+    color: #282A3A;
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+#login label {
+    font-size: 25px;
+}
+
+#login p {
+    font-size: 15px;
+}
+
+#login h1 {
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+#login a {
+    color: #735F32;
+}
+
+#login select {
+    background: #735F32;
+    color: #282A3A;
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: black;
+    line-height: 50px;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    height: 60%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #735F32;
+    border-width: 10px;
+}
+
+#formdiv {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.test {
+    background: #735F32;
+    width: 75%;
+    height: fit-content;
+    padding: 20px 0 20px 0;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-401%);
+    z-index: 1;
+    color: black;
+    border-color: #C69749;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.test input {
+    background: #282A3A;
+    border-radius: 25px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    color: #C69749;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+@keyframes downanim {
+    0% {
+        transform: translateX(-50%) translateY(-401%);
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+#login input:-webkit-autofill,
+#login input:-webkit-autofill:hover, 
+#login input:-webkit-autofill:focus {
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    -webkit-text-fill-color: #282A3A;
+    -webkit-box-shadow: 0 0 0px 1000px #735F32 inset;
+    box-shadow: 0 0 0px 1000px #735F32 inset;
+}
+
+.test input:-webkit-autofill,
+.test input:-webkit-autofill:hover, 
+.test input:-webkit-autofill:focus {
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    -webkit-text-fill-color: #C69749;
+    -webkit-box-shadow: 0 0 0px 1000px #282A3A inset;
+    box-shadow: 0 0 0px 1000px #282A3A inset;
+}

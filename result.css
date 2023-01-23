@@ -1,0 +1,27 @@
+body {
+    background: #282A3A;
+    color: #C69749;
+    font-family: Courgette;
+}
+
+.res {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: black;
+    line-height: 50px;
+    font-size: 24px;
+    width: 50%;
+    text-align: center;
+    height: fit-content;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #735F32;
+    border-width: 10px;
+    padding: 15px 30px 15px 30px;
+}
+
+h2 {
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+body {
+    background: #282A3A;
+    color: #C69749;
+    font-family: Courgette;
+}
+
+.create {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: black;
+    line-height: 50px;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    height: fit-content;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #735F32;
+    border-width: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div form input {
+    background: #735F32;
+    color: #282A3A;
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    -webkit-text-fill-color: #282A3A;
+    -webkit-box-shadow: 0 0 0px 1000px #735F32 inset;
+    box-shadow: 0 0 0px 1000px #735F32 inset;
+}
+
+::placeholder {
+    color: rgba(40, 42, 58, 0.6);
+}

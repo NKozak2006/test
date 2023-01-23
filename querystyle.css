@@ -1,0 +1,78 @@
+body {
+    background: #282A3A;
+    color: #C69749;
+    font-family: Courgette;
+    margin: 0;
+    padding: 0;
+}
+
+#login input {
+    background: #735F32;
+    color: #282A3A;
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: inherit;
+}
+
+#login label {
+    font-size: 25px;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: black;
+    line-height: 50px;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    height: fit-content;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #735F32;
+    border-width: 10px;
+}
+
+table {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius: 15px;
+    background: #C69749;
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+}
+
+td, th {
+    padding: 10px 15px 10px 15px;
+    background: black;
+    border-radius: 15px;
+}
+
+td {
+    font-size: 30px;
+}
+
+th {
+    font-size: 55px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    border-color: #C69749;
+    border-style: solid;
+    border-radius: 15px;
+    -webkit-text-fill-color: #282A3A;
+    -webkit-box-shadow: 0 0 0px 1000px #735F32 inset;
+    box-shadow: 0 0 0px 1000px #735F32 inset;
+}
+
+h3 {
+    font-size: 20px;
+}
