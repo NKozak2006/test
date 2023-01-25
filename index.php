@@ -23,8 +23,8 @@
     include "NavBar.html";
 
     $conn = mysqli_init();
+    $conn->ssl_set("Nzc3YzQzYTZmYWFjNjc5YWZlODQyNTIxZWI3ZjI4MTdmNjU4MGEwOQ==", "https://www.cleardb.com/service/1.0/api", "", "", "");
     echo "<script>alert('died')</script>";
-    $conn->ssl_set("Nzc3YzQzYTZmYWFjNjc5YWZlODQyNTIxZWI3ZjI4MTdmNjU4MGEwOQ==", "https://www.cleardb.com/service/1.0/api", null, null, null);
     $conn->real_connect("heroku_711a6f970c6f4f4", "b6536ab746a7ea", "4d6096b2");
     
     $dbname = "Q和A";
