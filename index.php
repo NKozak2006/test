@@ -25,7 +25,7 @@
 //     $conn = mysqli_init();
 //     $conn->ssl_set("Nzc3YzQzYTZmYWFjNjc5YWZlODQyNTIxZWI3ZjI4MTdmNjU4MGEwOQ==", "https://www.cleardb.com/service/1.0/api", "", "", "");
 //     $conn->real_connect("heroku_711a6f970c6f4f4", "b6536ab746a7ea", "4d6096b2", "");
-    $conn = new mysqli("localhost", "b6536ab746a7ea", "4d6096b2");
+    $conn = mysqli_connect("localhost", "b6536ab746a7ea", "4d6096b2");
     echo "<script>alert('died')</script>";
     
     $dbname = "Q和A";
